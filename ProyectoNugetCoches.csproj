@@ -4,6 +4,20 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>NugetCochesAPJ</PackageId>
+    <Authors>Alejandropj</Authors>
+    <Title>Nuget de Coches de AlejandroPJ</Title>
+    <Description>Esto es un paquete nuget</Description>
+    <PackageIcon>hannah3.jpg</PackageIcon>
+    <PackageTags>primero,cars,coches,</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Pictures\hannah3.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
